@@ -16,14 +16,14 @@ const App = () => {
           dispatch({ type: "counter/increment" });
         }}
       >
-        Increment
+        increment
       </button>
       <button
         onClick={() => {
           dispatch({ type: "counter/decrement" });
         }}
       >
-        Decrement
+        decrement
       </button>
     </div>
   );
