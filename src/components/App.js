@@ -9,7 +9,7 @@ const App = () => {
     <div>
       {/* Do not remove the main div */}
 
-      <div>{count}</div>
+      <h1>{count}</h1>
 
       <button
         onClick={() => {
@@ -23,7 +23,7 @@ const App = () => {
           dispatch({ type: "counter/decrement" });
         }}
       >
-        Increment
+        Decrement
       </button>
     </div>
   );
